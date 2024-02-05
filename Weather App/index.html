@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="card">
+        <div class="search">
+          <input type="text" placeholder="enter city name" class="input" />
+          <i class="ri-search-line search-btn"></i>
+        </div>
+        <div class="error">
+          invalid city name <i class="ri-error-warning-line"></i>
+        </div>
+        <div class="weather">
+          <img src="./images/rain.png" class="weather-icon" alt="" />
+          <h1 class="city">Chaman</h1>
+          <h2 class="temp">15°C</h2>
+          <div class="card-bottom">
+            <div class="elem">
+              <img src="./images/humidity.png" alt="" />
+              <div>
+                <p class="humidity">50%</p>
+                <p>Humidity</p>
+              </div>
+            </div>
+            <div class="elem">
+              <img src="./images/wind.png" alt="" />
+              <div>
+                <p class="wind">50 km/h</p>
+                <p>Wind Speed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
